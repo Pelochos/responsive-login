@@ -13,24 +13,24 @@ This is a simple, accessible login form built with semantic HTML and vanilla CSS
 Tested in Firefox and Chrome on desktop and mobile.  This form is designed to work without JavaScript, ensuring compatibility even in environments with limited scripting support.
 
 ## File structure
-.
-├── Images/
-│ ├── champagne.png
-│ ├── exclamation-mark-triangle-svgrepo-com.svg
-│ ├── gmaillogo.png
-│ ├── grandreservelogoblack.png
-│ ├── grandreservelogonobackground.png
-│ ├── tgr.ico
-│ ├── thumbs-up-svgrepo-com.svg
-├── LICENCE
-├── index.html
-├── styles.css
-└── README.md
+.<br>
+├── Images/<br>
+│ ├── champagne.png<br>
+│ ├── exclamation-mark-triangle-svgrepo-com.svg<br>
+│ ├── gmaillogo.png<br>
+│ ├── grandreservelogoblack.png<br>
+│ ├── grandreservelogonobackground.png<br>
+│ ├── tgr.ico<br>
+│ └── thumbs-up-svgrepo-com.svg<br>
+├── README.md<br>
+├── LICENCE<br>
+├── index.html<br>
+└── styles.css
 
 ## Usage
 You can view the live version of the login page on GitHub Pages.
 Simply visit the link, and you’ll be able to see the page in action, including the responsive design and interactive elements.
-### Alternatively:-
+#### Alternatively:-
 1. Clone the repo.
 2. Open `index.html` in your browser.
 3. Try submitting the form with an invalid email to see validation in action.
