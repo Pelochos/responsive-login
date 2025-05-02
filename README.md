@@ -28,7 +28,7 @@ Tested in Firefox and Chrome on desktop and mobile.  This form is designed to wo
 └── styles.css
 
 ## Usage
-You can view the live version of the login page on GitHub Pages.
+You can view the live version of the login page on [GitHub Pages](https://pelochos.github.io/responsive-login/).
 Simply visit the link, and you’ll be able to see the page in action, including the responsive design and interactive elements.
 #### Alternatively:-
 1. Clone the repo.
