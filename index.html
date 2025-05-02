@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Grand Reserve</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Puzzle Proof" />
+    <meta name="description" content="Existing Customer? Already know your password? Sign in to access your account or update your marketing preferences." />
+    <link rel="shortcut icon" href="images/tgr.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="page-container">
+        <main class="container">
+            <section class="image-container"><!-- for screen and (min-width: 946px); filled with background image via CSS (see styles.css) --></section>
+            <div class="content-container">
+                <section class="header">
+                    <h1><span class="visually-hidden">The Grand Reserve</span><img src="images/grandreservelogonobackground.png" alt="The Grand Reserve logo."></h1>
+                </section>
+
+                <form action="#" method="post" class="form">
+                    <input type="email" name="email" aria-label="Email" aria-describedby="email-error" class="email" placeholder="Email" autocomplete="email" required />
+
+                    <div id="email-error" class="error-message">
+                        The email address you have entered is invalid.  Valid addresses always feature an '@' followed by a domain name (eg. 'email-address@domain.com').
+                    </div>
+
+                    <input type="password" name="password" aria-label="Password" class="password" placeholder="Password" autocomplete="current-password" required />
+
+                    <button class="button" type="submit">log in</button>
+                </form>
+
+                <section class="account-info">
+                    <span class="horizontal-line"><h3>or</h3></span>
+                    <a href="#" class="login-gmail"><img src="images/gmaillogo.png" alt="Gmail logo.">Log in with Gmail</a>
+                    <p class="forgot-password"><a href="#">Forgotten your password?</a></p>
+                    <p class="no-account">Don't have an account?<a href="#" class="signup">Register now!</a></p>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <nav class="nav-menu"><a href="#" class="nav-link nav-link-home">home</a><a href="#" class="nav-link nav-link-about">about</a><a href="#" class="nav-link nav-link-blog">blog</a><a href="#" class="nav-link nav-link-faq">faq</a><a href="#" class="nav-link nav-link-locations">locations</a><a href="#" class="nav-link nav-link-privacy">privacy</a><a href="#" class="nav-link nav-link-terms">terms</a></nav>
+
+            <p class="copyright">© 2025 The Grand Reserve. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
